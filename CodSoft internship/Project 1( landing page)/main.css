@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url(images/pexels-gdtography-277628-911758.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.562);
+}
+
+header .logo{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    font-style: italic;
+    letter-spacing: 1,30px;
+    transition: 0,4s ;
+}
+
+header .logo:hover{
+    color: rgb(147, 185, 179);
+}
+
+header .Navigation a{
+    text-decoration: none;
+    color: rgb(147, 185, 179);
+   font-size: 20px;  
+    margin-right: 10px;
+    align-items: safe;
+}
+
+header .Navigation a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   font-size: 22px;
+}
+
+.Display{
+    background-color: rgba(0, 0, 0, 0.562);
+    text-align: center;
+    margin: auto;
+    top: 20%;
+    position: relative;
+    color: rgb(255, 255, 255);
+    
+}
+
+.Display img{
+    border-radius: 30px;
+    align-items: center;
+    right: 30%;
+    margin-right: 30px;
+}
+
+.About{
+    background-color: rgba(0, 0, 0, 0.562);
+    text-align: center;
+    margin: auto;
+    top: 60%;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font: size 20px;;
+}
+
+.About p{
+    font-size: large;
+}
+
+.About img{
+    border-radius: 30px;
+}
+
+.services{
+    background-color: rgba(0, 0, 0, 0.562);
+    text-align: center;
+    margin: auto;
+    top: 60%;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font: size 20px;;
+}
+
+.services p{
+    font-size: large;
+}
+
+.services img{
+    border-radius: 30px;
+}
+
+.Container{
+    background-image: url(images/pexels-dom-j-7304-297494.jpg);
+    background-size:auto;
+    background-position: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form{
+    color: aliceblue;
+    height: 100%;
+    background-color:  rgba(0, 0, 0, 0.562);
+    background-size: cover;
+    text-align: center;
+   align-items: center;
+   width:100%;
+}
+
+.form button{
+    align-items: center;
+    background-color: aqua;
+    color: black;
+    position: relative;
+    height: 40px;
+    width: 75px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input{
+    width: 60%;
+   margin-bottom: 10px;
+}
+
+.footer{
+
+    background-color: rgb(124, 124, 124);
+    color: black;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+}

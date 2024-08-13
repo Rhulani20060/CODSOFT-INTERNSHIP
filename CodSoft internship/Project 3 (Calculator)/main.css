@@ -1,0 +1,80 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#3e4442b6 ;
+}
+
+.main{
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px 20px 20px;
+    background-color: aliceblue;
+    box-shadow: inset;
+}
+
+.display{
+    height:80px;
+    width:100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border:none;
+    border-radius: 10px;
+    text-align: right;
+    margin-bottom:10px ;
+    background-color: rgba(128, 128, 128, 0.527);
+    color: black;
+}
+
+.inputs button{
+
+    padding: 12px;
+    border-radius: 8px ;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.808);
+    border: none;
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+.inputs button:hover{
+
+    border-radius: 10px ;
+    color: rgb(0, 255, 170);
+    background-color: rgba(101, 119, 136, 0.623);
+    border: none;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.inputs .null:hover{
+
+    border-radius: 10px ;
+    color: rgb(0, 255, 170);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 19px;
+    cursor: progress;
+}
+
+.inputs .Arithmetic{
+    color: rgb(4, 0, 255);
+}
+
+
+
+.inputs {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 8px;
+}
